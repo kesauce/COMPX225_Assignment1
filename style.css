@@ -4,11 +4,12 @@ body{
 }
 
 .container{
-    /*background-color: #3A7CA5;*/
+    background-color: #3A7CA5;
     border-color: #3A7CA5;
     border-width: 5px;
     margin: 50px 100px 50px 100px;
     padding: 25px;
+    color: aliceblue;
 }
 
 .navbar{
@@ -16,10 +17,12 @@ body{
     padding: 25px;
     height: 100px;
 }
+
 #title{
     color: aliceblue;
-    margin: 20px 5px 5px 1000px;
+    margin: 20px 5px 5px 5px;
     font-size: 50px;
+    float: right;
 }
 
 #navlogo{
