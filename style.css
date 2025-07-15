@@ -12,10 +12,11 @@ body{
     color: aliceblue;
 }
 
-.navbar{
+.header{
     background-color: #3A7CA5;
     padding: 25px;
     height: 100px;
+    margin-bottom: 50px;
 }
 
 #title{
@@ -25,8 +26,17 @@ body{
     float: right;
 }
 
-#navlogo{
+#logo{
     height: 75px;
     margin: 10px;
     float: left;
+}
+
+#link{
+    padding: 8px 32px;
+    margin: 5px;
+    background-color: #3A7CA5;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius:  10px;
 }
