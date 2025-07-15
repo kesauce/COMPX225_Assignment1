@@ -1,0 +1,29 @@
+body{
+    background-color: #16425B;
+    padding: 5px, 50px, 5px, 50px;
+}
+
+.container{
+    /*background-color: #3A7CA5;*/
+    border-color: #3A7CA5;
+    border-width: 5px;
+    margin: 50px 100px 50px 100px;
+    padding: 25px;
+}
+
+.navbar{
+    background-color: #3A7CA5;
+    padding: 25px;
+    height: 100px;
+}
+#title{
+    color: aliceblue;
+    margin: 20px 5px 5px 1000px;
+    font-size: 50px;
+}
+
+#navlogo{
+    height: 75px;
+    margin: 10px;
+    float: left;
+}
