@@ -3,6 +3,18 @@ body{
     padding: 5px, 50px, 5px, 50px;
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
 .container{
     background-color: #3A7CA5;
     border-color: #3A7CA5;
