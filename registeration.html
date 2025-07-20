@@ -19,11 +19,33 @@
     </div>
     <div class="container">
         <h2>Register</h2>
-        <form>
+        <form id="registeration" name="registeration" action="submit.php" onsubmit="return handleSubmit()" method="GET">
             <label for="fname">Enter your first name:</label> <br> <br>
             <input type="text" id="fname" name="fname" placeholder="John"> <br> <br>
             <label for="lname">Enter your last name:</label> <br> <br>
             <input type="text" id="lname" name="lname" placeholder="Doe"> <br> <br>
+            <label for="studentID">Enter your student ID:</label> <br> <br>
+            <input type="number" id="studentID" name="studentID" placeholder="001"> <br> <br>
+            <label for="email">Enter your email:</label> <br> <br>
+            <input type="email" id="email" name="email" placeholder="johndoe@email.com"> <br> <br>
+            <label for="mobile">Enter your mobile number:</label> <br> <br>
+            <input type="tel" id="mobile" name="mobile" placeholder="123-456-789"> <br> <br>
+            <label for="source">Where did you hear us?</label> <br> <br>
+            <select name="source" id="source">
+                <option value="online">Online</option>
+                <option value="flyers">Flyers</option>
+                <option value="students">Students</option>
+                <option value="clubs">Clubs Day</option>
+            </select>
+            <button type="submit">Submit</button>
+
+            <script>
+            function handleSubmit(){
+                alert("your info has been submitted");
+                return true;
+            }
+            </script>
+
         </form>
     </div>
 </body>
