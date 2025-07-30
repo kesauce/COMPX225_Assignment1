@@ -36,7 +36,7 @@ td, th {
     margin: 10px 0px 10px 250px;
 }
 
-.registerationgrid{
+.registeration_grid{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
