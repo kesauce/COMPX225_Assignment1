@@ -5,53 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="icon" type="image/x-icon" href="https://freesvg.org/img/musical-notes.png">
     <title>Registeration</title>
 </head>
 <body>
+    <!-- Header -->
     <div class="header">
         <img src="img/UoW-Logo-horiz-white-text.png" id="logo">
+        <img src="https://freesvg.org/img/musical-notes.png" id="logo">
         <h1 id="title">Jazz Ensemble</h1>
     </div>
+
+    <!-- Navigation bar -->
     <div class="navbar">
         <a href="index.html" id="link_inactive">Homepage</a>
         <a href="activities.html" id="link_inactive">Activities</a>
         <a href="registeration.html" id="link_active">Registration</a>
     </div>
+
+    <!-- Main content -->
     <div class="container">
         <h2>Register</h2>
+
+        <!-- Form -->
         <form id="registeration" name="registeration" action="submit.php" onsubmit="return handleSubmit()" method="GET">
+            <div class="registerationgrid">
 
-            <label for="fname" class="required">Enter your first name:</label> <br> <br>
-            <input type="text" id="fname" name="fname" required placeholder="John"> <br> <br>
+                <!-- First name -->
+                <div>
+                    <label for="fname" class="required">Enter your first name:</label> <br> <br>
+                    <input type="text" id="fname" name="fname" required placeholder="John"> <br> <br>
+                </div>
 
-            <label for="lname" class="required">Enter your last name:</label> <br> <br>
-            <input type="text" id="lname" name="lname" required placeholder="Doe"> <br> <br>
+                <!-- Last name -->
+                <div>
+                    <label for="lname" class="required">Enter your last name:</label> <br> <br>
+                    <input type="text" id="lname" name="lname" required placeholder="Doe"> <br> <br>
+                </div>
+                
+                <!-- Student ID -->
+                <div>
+                    <label for="studentID" class="required">Enter your student ID:</label> <br> <br>
+                    <input type="number" id="studentID" name="studentID" required placeholder="001"> <br> <br>
+                </div>
+                
+                <!-- Email -->
+                <div>
+                    <label for="email" class="required">Enter your email:</label> <br> <br>
+                    <input type="email" id="email" name="email" required placeholder="johndoe@email.com"> <br> <br>
+                </div>
+                
+                <!-- Phone -->
+                <div>
+                    <label for="mobile">Enter your mobile number (optional):</label> <br> <br>
+                    <input type="tel" id="mobile" name="mobile" placeholder="123-456-789"> <br> <br>
+                </div>
 
-            <label for="studentID" class="required">Enter your student ID:</label> <br> <br>
-            <input type="number" id="studentID" name="studentID" required placeholder="001"> <br> <br>
+                <!-- Source -->
+                <div>
+                    <label for="source">Where did you hear us? (optional): </label> <br> <br>
+                    <select name="source" id="source">
+                        <option value="online">Online</option>
+                        <option value="flyers">Flyers</option>
+                        <option value="students">Students</option>
+                        <option value="clubs">Clubs Day</option>
+                    </select>
+                </div>
 
-            <label for="email" class="required">Enter your email:</label> <br> <br>
-            <input type="email" id="email" name="email" required placeholder="johndoe@email.com"> <br> <br>
-
-            <label for="mobile">Enter your mobile number (optional):</label> <br> <br>
-            <input type="tel" id="mobile" name="mobile" placeholder="123-456-789"> <br> <br>
-
-            <label for="source">Where did you hear us? (optional): </label> <br> <br>
-            <select name="source" id="source">
-                <option value="online">Online</option>
-                <option value="flyers">Flyers</option>
-                <option value="students">Students</option>
-                <option value="clubs">Clubs Day</option>
-            </select>
-            <button type="submit">Submit</button>
-
-            <script>
-            function handleSubmit(){
-                alert("Thanks, we will be in touch soon");
-                return true;
-            }
-            </script>
-
+                <!-- Submit -->
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+                
+                <!-- Alert script -->
+                <script>
+                function handleSubmit(){
+                    alert("Thanks, we will be in touch soon");
+                    return true;
+                }
+                </script>
+            </div>
         </form>
     </div>
 </body>

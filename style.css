@@ -15,6 +15,7 @@ td, th {
   padding: 8px;
 }
 
+/* Class CSS */
 .container{
     background-color: #3A7CA5;
     border-color: #3A7CA5;
@@ -35,6 +36,13 @@ td, th {
     margin: 10px 0px 10px 250px;
 }
 
+.registerationgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+/* ID CSS*/
 #title{
     color: aliceblue;
     margin: 20px 5px 5px 5px;
