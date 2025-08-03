@@ -1,6 +1,6 @@
 body{
     background-color: #16425B;
-    padding: 5px, 50px, 5px, 50px;
+    padding: 5px 50px;
 }
 
 table {
@@ -26,11 +26,14 @@ footer{
 /* Class CSS */
 .container{
     background-color: #3A7CA5;
-    border-color: #3A7CA5;
     border-width: 5px;
     margin: 50px 100px 50px 100px;
     padding: 25px;
     color: aliceblue;
+}
+
+.container img{
+    width: 500px;
 }
 
 .header{
@@ -42,6 +45,15 @@ footer{
 
 .navbar{
     margin: 10px 0px 10px 250px;
+}
+
+.navbar a{
+    padding: 8px 32px;
+    margin: 5px 100px;
+    background-color: #3A7CA5;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius:  10px;
 }
 
 .registeration_grid{
@@ -58,19 +70,16 @@ footer{
     float: right;
 }
 
-#logo{
+#uowlogo{
     height: 75px;
     margin: 10px;
     float: left;
 }
 
-#link_inactive{
-    padding: 8px 32px;
-    margin: 5px 100px;
-    background-color: #3A7CA5;
-    cursor: pointer;
-    color: aliceblue;
-    border-radius:  10px;
+#clublogo{
+    height: 75px;
+    margin: 10px;
+    float: left;
 }
 
 #link_active{
